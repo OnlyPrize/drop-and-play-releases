@@ -61,6 +61,28 @@ Hotkeys work whenever you are in the world, even with the pad closed, but not
 while you are typing in chat or a text box. If a key is also a Foundry shortcut
 (W moves up, for example), the pad tells you and takes that key over.
 
+### Video
+
+Press **Video** in the Playlists tab to open the Gamemaster's video list.
+
+| Do this | What happens |
+|---|---|
+| Drop video files onto the Video window | They are uploaded to `videos/` in your User Data and added to the list |
+| Click **Show everyone** | Every player's screen opens a window playing it from the same moment |
+| **Pause** / **Resume** / ⟲ | Everyone pauses, resumes or starts over together |
+| **Stop for everyone** | Closes the video for everyone |
+
+Players can move, resize or close their video window and set its volume, but only
+the Gamemaster plays, pauses or stops. A player who joins or reloads mid-video
+picks it up at the right moment. If a player's browser needs a click before it
+plays sound, their window shows **Click to watch**. Music keeps playing under the
+video.
+
+Use MP4 (H.264) or WebM. MKV and MOV files, and MP4s encoded as HEVC/H.265, may
+not play on every player's computer even if they play on yours. Each player
+downloads the video from your server, so large files take a while on slow
+connections.
+
 ## License
 
 Free to use in your own games. Redistribution, resale and republishing are not
