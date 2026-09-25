@@ -27,9 +27,11 @@ Open the **Playlists** tab and press **Drop & Play** (Gamemasters only).
 | Drag a track up or down | The order changes — the track that is playing keeps playing |
 | Click a track's play button | That track plays now; click again to pause |
 
-Dropped files are uploaded to `music/<playlist name>/` in your User Data. You can
-change the folder in the module settings. An upload never replaces a file that is
-already there.
+Dropped files are uploaded to a folder named after the playlist inside `music/` in
+your User Data — "Tavern Songs" goes to `music/tavern-songs/`. A name with no Latin
+letters or digits, such as a Thai one, uses the playlist's ID as the folder name.
+You can change `music` to another folder in the module settings. An upload never
+replaces a file that is already there.
 
 In **Shuffle** mode the order is random, so dropped tracks go to the end and
 tracks cannot be dragged. Switch to **In order** to arrange them.
